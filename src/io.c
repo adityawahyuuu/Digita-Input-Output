@@ -1,8 +1,5 @@
 #include "io.h"
 #include <stdint.h>
-#include "uart.h"
-// #include "stdio.h"
-// #include <avr/io.h>
 
 void pinMode(mode mode, int ddr, ddr_member member)
 {
