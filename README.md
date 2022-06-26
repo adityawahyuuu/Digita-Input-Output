@@ -1,5 +1,5 @@
 # Digita-Input-Output
-Digita-Input-Output Library versi sederhana dari digital I/O milik Arduino. Library ini terinspirasi dari digital I/O milik Arduino. Repository berisi Library dan Examples, untuk setup environmentnya menggunakan PlatformIO, namun bisa juga digunakan pada konfigurasi environment secara mandiri tanpa PlatformIO
+Digita-Input-Output Library versi sederhana dari digital I/O milik Arduino. Library ini terinspirasi dari digital I/O milik Arduino. Repository berisi Library dan Examples, untuk setup environmentnya menggunakan PlatformIO, namun bisa juga digunakan pada konfigurasi environment secara mandiri tanpa PlatformIO. Bahasa program yang digunakan adalah bahasa C.
 
 ## Implementasi
 1. Pastikan terinstall vscode di dalam komputer anda
