@@ -11,17 +11,17 @@ void pinMode(mode mode, int ddr, ddr_member member)
         if (ddr == _DDRD)
         {
             *(volatile uint8_t *) ddr &= (mode << member);
-            *(volatile uint8_t *) _PORTD |= (1 << member);
+            *(uint8_t *) _PORTD |= (1 << member);
         }
         if (ddr == _DDRC)
         {
             *(volatile uint8_t *) ddr &= (mode << member);
-            *(volatile uint8_t *) _PORTC |= (1 << member);
+            *(uint8_t *) _PORTC |= (1 << member);
         }
         if (ddr == _DDRB)
         {
             *(volatile uint8_t *) ddr &= (mode << member);
-            *(volatile uint8_t *) _PORTB |= (1 << member);
+            *(uint8_t *) _PORTB |= (1 << member);
         }
     }
     *(volatile uint8_t *) ddr |= (mode << member);
